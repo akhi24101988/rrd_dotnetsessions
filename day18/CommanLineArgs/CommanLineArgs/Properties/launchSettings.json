@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CommanLineArgs": {
+      "commandName": "Project",
+      "commandLineArgs": "Akhi\r\nRRD\r\nSachin"
+    }
+  }
+}
