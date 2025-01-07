@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "HelloFunction": {
-      "commandName": "Project",
-      "commandLineArgs": "Akhi\r\nRRD\r\nVenkat\r\nSachin"
-    }
-  }
-}
