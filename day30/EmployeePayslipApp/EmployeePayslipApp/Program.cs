@@ -6,8 +6,8 @@ namespace EmployeeManagementApp
     {
         static void Main(string[] args)
         {
-            Employee developer = new Developer(20000);
-            Employee manager = new Manager(40000);
+            Employee developer = new Developer(10000);
+            Employee manager = new Manager(50000);
 
             PrintSalarySlip(developer);
             PrintSalarySlip(manager);
@@ -16,8 +16,7 @@ namespace EmployeeManagementApp
 
         static void PrintSalarySlip(Employee employee)
         {
-            Console.WriteLine($"Basic Salary: {employee.GetEmployeeType()} :{employee.BasicSalary}");
-            Console.WriteLine($"Total CTC: {employee.CalculateCTC()}");
+            Console.WriteLine($"Basic Salary: {employee.EmployeeType()} :{employee.BasicSalary}");
             Console.WriteLine(employee.GetDetails());
         }
     }

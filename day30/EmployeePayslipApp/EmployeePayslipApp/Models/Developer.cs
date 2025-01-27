@@ -16,12 +16,9 @@ namespace EmployeeManagementApp.Models
             _performanceAllowance = 0.4 * BasicSalary;
         }
 
-        public override double CalculateCTC()
-        {
-            return _performanceAllowance + BasicSalary;
-        }
+     
 
-        public override string GetEmployeeType()
+        public override string EmployeeType()
         {
             return "Developer";
         }

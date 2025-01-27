@@ -25,8 +25,8 @@ namespace EmployeeManagementApp.Models
             }
 
         }
-        public abstract double CalculateCTC();
-        public abstract string GetEmployeeType();
+        
+        public abstract string EmployeeType();
         public abstract string GetDetails();
 
     }

@@ -17,12 +17,8 @@ namespace EmployeeManagementApp.Models
             _TA = 0.6 * BasicSalary;
         }
 
-        public override double CalculateCTC()
-        {
-            return BasicSalary + _HRA + _TA;
-        }
-
-        public override string GetEmployeeType()
+      
+        public override string EmployeeType()
         {
             return "Manager";
         }
