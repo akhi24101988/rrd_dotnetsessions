@@ -8,7 +8,7 @@ namespace AttentionMarkerAttributeApp
         static void Main(string[] args)
         {
             List<MethodInfo> methodsWithAttention = new List<MethodInfo>();
-            MethodInfo[] methods = typeof(Class A).GetMethods();
+            MethodInfo[] methods = typeof(Class_A).GetMethods();
 
             foreach (MethodInfo method in methods)
             {
