@@ -6,7 +6,7 @@ namespace CustomerHashSetApp
     {
         static void Main(string[] args)
         {
-            //  CaseStudy1();
+            CaseStudy1();
             CaseStudy2();
         }
 
